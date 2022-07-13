@@ -4,7 +4,7 @@ Facial Recognition Attendance with Automatic Zooming Capabilities Using IPWebcam
 ## About
 This is the source code for Facial Recognition Attendance  
 Language: Python
-Database:MySQL
+Database: MySQL
 Email: johnpkundy@gmail.com  
 You can ask me questions
 
