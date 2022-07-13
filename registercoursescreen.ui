@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>takeattendance</class>
+ <widget class="QDialog" name="takeattendance">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>907</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widgetb" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widgetb1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1000</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 93, 205);</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>10</y>
+       <width>100</width>
+       <height>99</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>udsm_logo.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>0</y>
+       <width>531</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>nkuruma_hall.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>10</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="text">
+      <string>UNIVERSITY OF DAR ES SALAAM</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>50</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ATTENDANCE SYSTEM</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgetb3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>1000</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(214, 214, 214);
+</string>
+    </property>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>30</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>REGISTER YOUR COURSES</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saveButton">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>390</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>SAVE</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancelButton">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>390</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>CANCEL</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox2">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>220</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Arial&quot;;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>FIRST_YEAR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SECOND_YEAR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>THIRD_YEAR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>FOURTH_YEAR</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox4">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>150</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Arial&quot;;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+ <item>
+	 <property name="text">
+	  <string>TE411 : MICROWAVE COMMUNICATION</string>
+	 </property>
+ </item>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>100</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Your Courses</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>100</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Options</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="addButton">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>290</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>ADD</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="removeButton">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>150</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>REMOVE</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="clearallButton">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>210</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>CLEAR ALL</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="comment">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>70</y>
+       <width>191</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Arial&quot;;
+color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>HAS ALREADY BEEN ADDED !!</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="comment1">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>400</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Arial&quot;;
+color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>SAVED !!!</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox1">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>150</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Arial&quot;;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>TELECOMMUNICATION_ENGINEERING</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>COMPUTER_ENGINEERING</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox3">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>290</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Arial&quot;;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

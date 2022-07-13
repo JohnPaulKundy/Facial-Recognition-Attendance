@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>faceregistering</class>
+ <widget class="QDialog" name="faceregistering">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widgetd" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>1000</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widgetd1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1000</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 93, 205);</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>100</width>
+       <height>99</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Wallpapers/udsm_logo.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>0</y>
+       <width>531</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Wallpapers/nkuruma_hall.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>10</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="text">
+      <string>UNIVERSITY OF DAR ES SALAAM</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>50</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ATTENDANCE SYSTEM</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgetd2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>200</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(214, 214, 214);
+</string>
+    </property>
+    <widget class="QPushButton" name="saveButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>UPLOAD</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="gobackButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>GO BACK</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="stopped">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>340</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);
+font: 75 15pt &quot;Myanmar Text&quot;;</string>
+     </property>
+     <property name="text">
+      <string>STOPPED !!!</string>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="pb2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>260</y>
+       <width>141</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgetd3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>120</y>
+      <width>800</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <widget class="QPushButton" name="startButton">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>30</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>START</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox3">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>360</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox4">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>360</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="addButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>360</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>ADD</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="removeButton">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>360</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>REMOVE</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="clearallButton">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>410</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>CLEAR ALL</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>110</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>211</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>TELECOMMUNICATION_ENGINEERING</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>COMPUTER_ENGINEERING</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>250</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Sir Name</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>250</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>First</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>250</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Middle</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>250</y>
+       <width>201</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Reg No. eg. 2018-04-01845</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>330</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Optional Courses</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>330</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Core Courses</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>10</y>
+       <width>331</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="picture">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(214, 214, 214);
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="stopButton">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>270</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>STOP</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="reg">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>280</y>
+       <width>211</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhUppercaseOnly</set>
+     </property>
+     <property name="inputMask">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="first">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>280</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="middle">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>280</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="sir">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>280</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhNone</set>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="fieldnotfilled">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>430</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);
+font: 75 10pt &quot;Myanmar Text&quot;;</string>
+     </property>
+     <property name="text">
+      <string>SOME FIELD ARE NOT FILLED !!</string>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="pb">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>110</y>
+       <width>161</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

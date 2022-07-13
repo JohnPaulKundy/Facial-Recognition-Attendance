@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>home</class>
+ <widget class="QDialog" name="home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>999</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QScrollArea" name="scroll">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>160</y>
+     <width>561</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="contents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>559</width>
+      <height>439</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>120</y>
+     <width>401</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="vl">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;CAMERA FEED&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widgeta1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 93, 205);</string>
+   </property>
+   <widget class="QLabel" name="labela1">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>100</width>
+      <height>99</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Wallpapers/udsm_logo.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labela3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>0</y>
+      <width>521</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Wallpapers/nkuruma_hall.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labela2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>10</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>UNIVERSITY OF DAR ES SALAAM</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labela2_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>50</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ATTENDANCE SYSTEM</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="saveButton">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>490</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+   </property>
+   <property name="text">
+    <string>SAVE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopButton">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>490</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+   </property>
+   <property name="text">
+    <string>STOP</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startButton">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>490</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+   </property>
+   <property name="text">
+    <string>START</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="gobackButton">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>490</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+   </property>
+   <property name="text">
+    <string>GO BACK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="saved">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>550</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);
+font: 75 15pt &quot;Myanmar Text&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SAVED !!!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="alreadysaved">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>550</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);
+font: 75 15pt &quot;Myanmar Text&quot;;</string>
+   </property>
+   <property name="text">
+    <string>ALREADY SAVED !!!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>561</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;Arial&quot;;
+background-color: rgb(255, 255, 255);
+border : 1px solid black</string>
+   </property>
+   <property name="text">
+    <string>  NAMES AND REG. NO                                                     TIME</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nctc">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>460</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);
+font: 75 12pt &quot;Myanmar Text&quot;;</string>
+   </property>
+   <property name="text">
+    <string>NO CONNECTION TO THE CAMERA !!!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stopped">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>550</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);
+font: 75 15pt &quot;Myanmar Text&quot;;</string>
+   </property>
+   <property name="text">
+    <string>STOPPED</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="pcnt">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>550</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Arial&quot;;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>70</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>65</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>60</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>55</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>50</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>45</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>40</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>35</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>30</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

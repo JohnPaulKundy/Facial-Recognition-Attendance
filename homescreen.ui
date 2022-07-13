@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>home</class>
+ <widget class="QDialog" name="home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widgeta" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>1000</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widgeta1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1000</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 93, 205);</string>
+    </property>
+    <widget class="QLabel" name="labela1">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>10</y>
+       <width>100</width>
+       <height>99</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Wallpapers/udsm_logo.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labela3">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>0</y>
+       <width>521</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Wallpapers/nkuruma_hall.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labela2">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>10</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="text">
+      <string>UNIVERSITY OF DAR ES SALAAM</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labela2_2">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>50</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ATTENDANCE SYSTEM</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgeta2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>200</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(214, 214, 214);
+</string>
+    </property>
+    <widget class="QLabel" name="logout">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>200</width>
+       <height>480</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Wallpapers/emile-seguin-R9OueKOtGGU-unsplash.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="retrievedataButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>310</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>SEND TO EMAIL</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="registerfaceButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>250</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>REGISTER FACE</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>370</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>HELP</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="viewattendanceButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>VIEW ATTENDANCE</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="takeattendanceButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>TAKE ATTENDANCE</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="registercoursesButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>190</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>REGISTER COURSES</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="lg">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>430</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(34, 93, 205);
+border-style: outset;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>LOG OUT</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgeta3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>120</y>
+      <width>800</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Wallpapers/ujenzi-sahihi-6-705x467.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
